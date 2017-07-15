@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>ThirdTask BSA</title>
+    <script type="text/javascript" src="js/data.json"></script>
+    <link rel="icon" href="css/img/js.png" />
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+</head>
+<body>
+    <div id="check-block">
+        <input type="checkbox" value="Sports" id="Sport" onchange="ChangeState('Sport');"/><span>Sport</span><br />
+        <input type="checkbox" value="Politics" id="Politics" onchange="ChangeState('Politics');"/><span>Politics</span><br />
+        <input type="checkbox" value="Food" id="Food" onchange="ChangeState('Food');"/><span>Food</span><br />
+        <input type="checkbox" value="Business" id="Business" onchange="ChangeState('Business');"/><span>Business</span><br />
+        <input type="checkbox" value="Tech" id="Tech" onchange="ChangeState('Tech');"/><span>Tech</span><br />
+        <input type="checkbox" value="Culture" id="Culture" onchange="ChangeState('Culture');"/><span>Culture</span><br />
+        <input type="checkbox" value="Showbiz" id="Showbiz" onchange="ChangeState('Showbiz');"/><span>Showbiz</span><br />
+    </div>
+    <div class="form-holder">
+        <form>
+            <input class="place_for_search" type="text" id="text-to-find" value="" placeholder="Enter your query" autofocus>
+            <input class="button_for_turn_back" type="button" onclick="javascript: FindOnPage('text-to-find',false); return false;" value="Undo" title="Cancel">
+            <input class="button_for_search" type="submit" onclick="javascript: FindOnPage('text-to-find',true); return false;" value="Search" title="Start">
+        </form>
+    </div>
+    <div id="main">
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

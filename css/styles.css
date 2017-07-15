@@ -1,0 +1,153 @@
+|* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d8d8d6;
+}
+
+ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+}
+
+#main {
+    max-width: 800px;
+    height: 1200px;
+    background-color: #e2e1e1;
+    margin: 10px auto;
+    padding: 10px 0 25px 0;
+    overflow: auto;
+}
+
+.head-news {
+    position: relative;
+    background-color: #35397e;
+    height: auto;
+    width: 100%;
+}
+
+    .head-news span {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        color: white;
+        background-color: rgba(0,0,0,0.3);
+        font-size: 12px;
+        font-family: 'Kurale', serif;
+        text-align: center;
+        padding: 2px 10px;
+    }
+
+.block-content {
+    max-width: 700px;
+    height: auto;
+    background-color: #fff;
+    margin: 30px auto;
+}
+
+    .block-content h1 {
+        margin: 0;
+        color: rgba(255,255,255,0.7);
+        text-shadow: -1px 0 black, 1px 0 black, 0 1px black, 0 -1px black;
+        font-size: 48px;
+        font-family: 'Kurale', serif;
+        text-align: center;
+    }
+
+    .block-content p {
+        margin: 10px auto;
+        padding: 15px 10px 10px 15px;
+        width: auto;
+        word-wrap: break-word;
+        font-size: 18px;
+        font-family: 'Kurale', serif;
+        text-align: justify;
+    }
+
+.tags-list {
+    height: 30px;
+    width: auto;
+}
+
+    .tags-list li {
+        display: inline;
+        text-align: center;
+        padding: 2px 10px;
+        color: rgba(255,255,255,0.8);
+        width: auto;
+        margin-left: 15px;
+        font-size: 18px;
+        background: #5671f6;
+    }
+
+.content-holder {
+    height: auto;
+    border-bottom: 2px dashed #000;
+    border-top: 2px dashed #000;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+    .content-holder img {
+        padding-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+#check-block {
+    position: fixed;
+    right: 3%;
+    top: 10%;
+    border: 1px dashed black;
+    width: 150px;
+    height: auto;
+    padding: 5px 0 5px 5px;
+}
+
+    #check-block input {
+        margin: 10px 0 10px 10px;
+        vertical-align: middle;
+    }
+
+    #check-block span {
+        /*display:inline-block;*/
+        background-color: #5671f6;
+        padding: 2px 10px;
+        color: #fff;
+    }
+
+.settings {
+    margin: 0;
+    position: relative;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    left: 95.7%;
+    top: 3%;
+}
+
+    .settings:hover {
+        cursor: pointer;
+        
+    }
+
+    .settings img {
+        width: 25px;
+        height: 25px;
+        margin-left:-5px;
+    }
+    .form-holder{
+        height:auto;
+        width:100%;       
+        position:relative;
+        background-color:#5671f6;
+        padding:5px 0;        
+    }
+    .form-holder input{
+        position:relative;
+        left:75%;
+        border-radius:15px;
+    }
